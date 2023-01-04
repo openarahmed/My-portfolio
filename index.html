@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-portfolio</title>
+    <style>
+        * {
+            margin: 0%;
+
+        }
+
+        .bar {
+            font-weight: 800;
+            font-size: 45px;
+        }
+
+        .k {
+            color: orange;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 200px;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+        }
+
+        nav li {
+            list-style: none;
+            margin-left: 50px;
+        }
+
+        .button {
+            background-color: orange;
+            color: white;
+            padding: 18px 35px;
+            font-size: 25px;
+            height: 64px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 350px;
+        }
+
+        .text {
+            margin: 0 200px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hi {
+            font-size: 45px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-weight: 800px;
+            font-size: 85px;
+        }
+
+        .paragraph {
+            color: rgb(118, 116, 116);
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .header {
+            background-color: #FFF8F3;
+            background-image: url("/images/header_bg.png"), url("images/developer.png");
+            background-repeat: no-repeat;
+            background-position: bottom right, left;
+            background-size: 800px, 75px;
+
+        }
+
+        main {
+            max-width: 1150px;
+            margin: 0 auto;
+        }
+
+        .about {
+            margin-top: 130px;
+            background-color: #FFF8F3;
+            padding: 130px 150px;
+            text-align: center;
+            margin: 60px;
+        }
+
+        .me {
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+
+        .yes {
+            font-size: 25px;
+        }
+
+        .date {
+            font-size: 30px;
+            display: flex;
+        }
+
+        .information {
+            font-size: 30px;
+        }
+
+        main,
+        .about,
+        .information {
+            font-size: 20px;
+        }
+
+        .information {
+            display: flex;
+margin-top: 40px;
+padding: 30px;
+border: 30px;
+justify-content: space-between;
+        }
+    </style>
+
+<body>
+    <header class="header">
+        <nav>
+            <h2 class="bar">Sha<span class="k">k</span>il 2.0</h2>
+            <ul>
+                <li>Portfolio</li>
+                <li>Blog</li>
+                <li><button class="button">Hire me</button></li>
+            </ul>
+        </nav>
+        <div class="text">
+            <div>
+                <h3 class="hi">Hi, I am </h3>
+                <h1 class="name">Shakil 2.0</h1>
+                <p class="paragraph">This is Shakil Ahmed from Mymensingh I am currently living in Dhaka, Bangladesh.
+                    <br> I am an under graduat student of Norther University Bangladesh. I am a professional Web
+                    developer.
+                </p>
+                <button class="button">Download CV</button>
+            </div>
+            <img src="/shakil.jpg" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <h3 class="me">About Me</h3>
+            <p class="yes">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean
+                and slick websites that provide real value to the end user. Thousands of clients have procured
+                exceptional resulfs while working with me. Delivering work within time and budget which meets clients
+                requirements in our mata.</p>
+
+            <div class="information">
+                <div>
+                    <p>Name</p>
+                    <p>Shakil Ahmed</p>
+                </div>
+                <div>
+                    <p>Email</p>
+                    <p>Openarahmed@gmail.com</p>
+                </div>
+                <div>
+                    <p>Date of birth</p>
+                    <p>09-09-2001</p>
+                </div>
+                <div>
+                    <p>From</p>
+                    <p>Dhaka, Bangadesh</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
